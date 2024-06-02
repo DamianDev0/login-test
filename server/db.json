@@ -1,4 +1,75 @@
 {
-    "users": [],
-    "tasks": []
+  "_meta": {
+    "host": "http://localhost:3000",
+    "cors": {
+      "origin": "*",
+      "methods": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "allowedHeaders": [
+        "Content-Type",
+        "Authorization"
+      ]
+    }
+  },
+  "users": [
+    {
+      "id": "d183",
+      "name": "gdvgevdd",
+      "email": "rojastiago324@gmail.com",
+      "password": "2332332"
+    },
+    {
+      "id": "0782",
+      "name": "r4hr4r",
+      "email": "dg997678@gmail.com",
+      "password": "234"
+    },
+    {
+      "id": "d98d",
+      "name": "r4hr4r",
+      "email": "dg997678@gmail.com",
+      "password": "234"
+    },
+    {
+      "id": "202d",
+      "name": "r4hr4r",
+      "email": "dg997678@gmail.com",
+      "password": "234"
+    },
+    {
+      "id": "e54c",
+      "name": "r4hr4r",
+      "email": "dg997678@gmail.com",
+      "password": "234"
+    },
+    {
+      "id": "ee04",
+      "name": "r4hr4r",
+      "email": "dg997678@gmail.com",
+      "password": "234"
+    },
+    {
+      "id": "b6a9",
+      "name": "r4hr4r",
+      "email": "dg997678@gmail.com",
+      "password": "234"
+    },
+    {
+      "id": "4dc7",
+      "name": "Damian Alejajandro Garcia Agudelo",
+      "email": "dg997678@gmail.com",
+      "password": "434434"
+    },
+    {
+      "id": "e739",
+      "name": "gdvgevdd",
+      "email": "rojastiago324@gmail.com",
+      "password": "32333443"
+    }
+  ],
+  "tasks": []
 }
