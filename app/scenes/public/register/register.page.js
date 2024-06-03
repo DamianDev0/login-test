@@ -1,4 +1,5 @@
 import { navigateTo } from "../../../Router";
+import {encryptData} from '../../../../encrypt'
 
 export function Register() {
   const root = document.getElementById("root");
@@ -33,7 +34,7 @@ export function Register() {
       body:JSON.stringify({
         name: $userName.value,
         email: $userEmail.value,
-        password:  $userPassword.value,
+        password:encryptData($userPassword.value),
       })
 
     });
